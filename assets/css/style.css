@@ -1,0 +1,38 @@
+/*Contains CSS for the Basic Portfolio */
+
+body {
+    background-color: lightgrey;
+}
+h1{
+    background-color: navy;
+    float: left;
+}
+.mainContent{
+    background-color: lightseagreen;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 300px;
+}
+aside{
+    float: right;
+}
+nav{
+    float: right;
+    margin: 20px;
+}
+.linkIcon {
+    width: 42px;
+    height: 42px;
+    margin: 10px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(1, 75, 104);
+    color: white;
+    text-align: center;
+}
