@@ -9,13 +9,18 @@ h1{
 }
 .mainContent{
     background-color: lightseagreen;
+    display: inline-block;
     margin-left: 100px;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 300px;
+    width: 60%;
+    float: left;
 }
-aside{
-    float: right;
+.connectMe{
+    float: left;
+    display: inline-block;
+    width: 30%;
 }
 nav{
     float: right;
