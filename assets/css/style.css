@@ -6,9 +6,16 @@ body {
 h1{
     background-color: navy;
     float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
 }
 .mainContent{
-    background-color: lightseagreen;
+    background-color: white;
     display: inline-block;
     margin-left: 100px;
     margin-top: 25px;
@@ -18,12 +25,13 @@ h1{
     float: left;
 }
 .connectMe{
+    background-color: white;
     float: left;
     display: inline-block;
-    width: 30%;
+    width: 200px;
 }
-nav{
-    float: right;
+#navBar {
+    float: left;
     margin: 20px;
 }
 .linkIcon {
