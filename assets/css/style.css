@@ -1,50 +1,136 @@
 /*Contains CSS for the Basic Portfolio */
 
 body {
-    background-color: lightgrey;
+    background-image: url("../images/circles-dark.png");
     font-family: 'Open Sans', sans-serif;
+}
+.bodyText{
+    color: #777777;
+    padding: 10px 10px 10px 10px;
 }
 h1{
-    background-color: navy;
-    float: left;
+    line-height: 2.5;
+    background-color:#4ba9a5;
+    width: 150px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 22px;
 }
-.class {
+h2{
+    color: #4ba9a5;
+    padding:20px 10px;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(97, 97, 97);
+}
+header{
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #cccccc;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.container {
     width: 960px;
+    margin: 0 auto;
 }
-p{
-    font-family: 'Open Sans', sans-serif;
+/*CSS for navigation bar*/
+#navBar {
+    width: 960px;
+    margin: 0px AUTO 0px auto;  
 }
-.mainContent{
+
+.navlink{
+    color: rgb(150, 144, 144);
     background-color: white;
-    display: inline-block;
-    margin-left: 100px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: 300px;
-    width: 60%;
+    padding-top: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+}
+
+.navList {
+    list-style-type: none;
+}
+
+.myName{
+    float: left;
+    margin-right: 400px;
+}
+li {
+    display: inline;
     float: left;
 }
-.connectMe{
-    background-color: white;
-    display: inline-block;
-    width: 200px;
-}
-#navBar {
-    float: right;
-    margin: 20px;
+li + li {
+    border-left: 1px solid lightgrey; 
+    
 }
 .linkIcon {
-    width: 42px;
-    height: 42px;
+    width: 64px;
+    height: 64px;
     margin: 10px;
 }
 
+/*Connect and main content style*/
+.mainContent{
+    background-color: #ffffff;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    width: 650px;
+    float: left;
+    position: relative;
+    
+}
+.connectMe{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 270px;
+    float: right;
+    margin-top: 20px;
+    padding: 5px;
+}
+.myPic{
+    float: left;
+    margin: 0px 10px;
+    width: 250px;
+    height: 250px;
+}
+
+/*CSS for footer*/
 .footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(1, 75, 104);
+    height: 45px;
+    background-color: #666666;
     color: white;
     text-align: center;
+    line-height: 22px;
+    border-top: 5px solid #4aaaa5;
+}
+
+/*CSS for form*/
+.contactForm{
+    padding: 10px;
+}
+.form{
+    margin: 5px 0px;
+}
+.smallForm{
+    width: 35%;
+}
+.largeForm{
+    width:90%;
+    height: 300px;
+}
+.formSubmit{
+    margin-top: 10px;
+    padding: 15px 15px;  
+    background-color: #4ba9a5;
+    color: white;
+    border: none;
 }

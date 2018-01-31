@@ -3,55 +3,58 @@
 <head>
     <meta charset="utf-8" />
     <title>Adam's Portfolio Page</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
  
 </head>
 <body>
-<div class= "container">
-    <h1>Adam Specker</h1>
+        
+    <header>
+    
+            
 
-    <br>
+    
 
     <!--details the naviagtion links between pages-->
     <nav id="navBar">
-        <a href="./index.html">About Me</a>
-        <a href="./portfolio.html">Portfolio</a>
-        <a href="./contact.html">Contact</a>
+            <h1 class="myName">Adam Specker</h1>
+       <ul class="navList">
+        <li><a class="navlink" href="./index.html">About Me </a></li>
+        <li><a class="navlink" href="./portfolio.html"> Portfolio</a></li>
+        <li><a class="navlink" href="./contact.html"> Contact</a></li>
+        </ul>
     </nav>
 
-    <br>
-    
+    </header>
+
+    <div class= "container">
+    <!--Connection section - links to github, linkedin and stackoverflow-->
+            <div class="connectMe">
+                    <h2>Connect with me</h2>
+                    <a href="https://github.com/aspecker" target="_blank"><img class="linkIcon" src="./assets/images/ghicon.png" alt="GitHub Link"></a>
+                    
+                       <a href="https://www.linkedin.com/in/adam-specker-9b580976/" target="_blank"><img class="linkIcon" src="./assets/images/Logo-LinkedIn.jpg" alt="LinkedIn Link"></a>
+                    
+                    <a href="https://stackoverflow.com/users/story/9195888" target="_blank"><img class="linkIcon" src="./assets/images/stackoverflowlogo.png" alt="StackOverflow Link"></a>
+                   </div>
     <!--This section will detail my bio-->
     <div class="mainContent">
         <h2>About Me</h2>
 
-        <p>A native of Charlotte, NC, I attended Duke University, graduated in 2010 with a B.S. in Biology with a chem minor. After graduating, I worked at the Duke Reading Center, where I interpreted Optical Coherence Tomograpy images and managed large medical databases. In 2013, I received an M.S. in Physiology from Georgetown University. After working as a math and science tutor, I became a surgical technologist at a small urology practice, where I worked until 2018.</p>
-    
-    
+        <img class="myPic" src="./assets/images/myPic.jpg">
 
-        <p>Seeking a field utilizing creative problem solving and critical thinking skills, I enrolled in the George Washington University web development bootcamp. I am excited to begin creating my own webpages and web applications. By the end of the course, I will be proficient in HTML, CSS, Javascript and node.js.</p>
+        <p class="bodyText">A native of Charlotte, NC, I attended Duke University, graduated in 2010 with a B.S. in Biology with a chem minor. After graduating, I worked at the Duke Reading Center, where I interpreted Optical Coherence Tomograpy images and managed large medical databases. In 2013, I received an M.S. in Physiology from Georgetown University. After working as a math and science tutor, I became a surgical technologist at a small urology practice, where I worked until 2018.</p>
 
-    
+        <p class="bodyText">Seeking a field utilizing creative problem solving and critical thinking skills, I enrolled in the George Washington University web development bootcamp. I am excited to begin creating my own webpages and web applications. By the end of the course, I will be proficient in HTML, CSS, Javascript and node.js.</p>
 
-        <p>I love dogs, and have a 11 year old Pekingese named Chester. I enjoy working on my tennis game and taking long walks around Washington, D.C. I am an avid reader, with a love for all fiction, especially speculative fiction. I am a huge music fan of all styles of music, and often attend live shows in the DC area. I am interested in technology, all types of science, writing, art history, the outdoors, nature and photography. Please use my contact form if you would like to know more about me, or would like me to create a webpage for you. </p>
+        <p class="bodyText">I love dogs, and have a 11 year old Pekingese named Chester. I enjoy working on my tennis game and taking long walks around Washington, D.C. I am an avid reader, with a love for all fiction, especially speculative fiction. I am a huge music fan of all styles of music, and often attend live shows in the DC area. I am interested in technology, all types of science, writing, art history, the outdoors, nature and photography. Please use my contact form if you would like to know more about me, or would like me to create a webpage for you. </p>
     </div>
 
-    <!--Connection section - links to github, linkedin and stackoverflow-->
+    
    
-        <div class="connectMe">
-         <h3>Connect with me</h3>
-         <a href="https://github.com/aspecker" target="_blank">
-            <img class="linkIcon" src="./assets/images/ghicon.png" alt="GitHub Link">
-          </a>
-         <a href="https://www.linkedin.com/in/adam-specker-9b580976/" target="_blank">
-            <img class="linkIcon" src="./assets/images/Logo-LinkedIn.jpg" alt="LinkedIn Link">
-         </a>
-         <a href="https://stackoverflow.com/users/story/9195888" target="_blank">
-            <img class="linkIcon" src="./assets/images/stackoverflowlogo.png" alt="StackOverflow Link">
-         </a>
-        </div>
+        
 
     <!--Footer section -->
     <div class="footer">
@@ -60,6 +63,6 @@
         
         
     </div>
-</div>
+    </div>
 </body>
 </html>
