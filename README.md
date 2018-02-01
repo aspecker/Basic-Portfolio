@@ -1,3 +1,8 @@
+#Changes needed 8PM 1/31
+    -lines between navlinks are too tall
+    -form does not connect to my email
+    
+
 # Basic-Portfolio
 Portfolio of the introductory, learning and simple code segments
 IMPORTANT Your site's layout must match the designs in these screenshots. You'll find the specs for these designs below.
